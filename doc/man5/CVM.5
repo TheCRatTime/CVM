@@ -1,0 +1,65 @@
+.TH "CVM" "5" "2026\-10\-27" "TheCRatTime"
+.SH NAME
+\fBCVM\fR \- CVM Text Format\&.
+.PP
+.SH DESCRIPTION
+There are all commands:
+.PP
+\fBmov \fIreg reg_or_num\fR
+.RS 4
+Set to \fIreg\fR value of \fIreg_or_num\fR\&.
+.RE
+.PP
+\fBadd \fIreg reg_or_num\fR
+.RS 4
+Add to \fIreg\fR \fIreg_or_num\fR and write to \fIreg\fR\&.
+.RE
+.PP
+\fBsub \fIreg reg_or_num\fR
+.RS 4
+Subtract from \fIreg\fR \fIreg_or_num\fR and write to \fIreg\fR\&.
+.RE
+.PP
+\fBprint \fIreg\fR
+.RS 4
+Print value of \fIreg\fR\&.
+.RE
+.PP
+\fBhalt\fR
+.RS 4
+Interrupt the program\&.
+.RE
+.PP
+\fBnop\fR
+.RS 4
+Do nothing\&.
+.RE
+.PP
+\fBeof\fR
+.RS 4
+Specify \fBE\fRnd \fBO\fRf \fBF\fRile\&.
+.RE
+.PP
+\fBeax\fR
+.RS 4
+Specify register \fBeax\fR
+.RE
+.PP
+\fBebx\fR
+.RS 4
+Specify register \fBebx\fR
+.RE
+.PP
+\fBinc \fIreg\fR
+.RS 4
+Add to \fBreg\fR 1\&.
+.RE
+.PP
+\fBdec \fIreg\fR
+.RS 4
+Subtract from \fBreg\fR 1\&.
+.RE
+.SH AUTHORS
+Project and man\-page: TheCRatTime
+.SH SEE ALSO
+\fBcvmr\fR(1), \fBcvmc\fR(1), \fBcvmd\fR(1)
